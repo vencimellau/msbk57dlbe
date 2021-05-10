@@ -390,6 +390,7 @@ namespace msbk57dlbe
             Console.WriteLine("Eval train:" + app.Evaluate(trainDS));
             Console.WriteLine("Eval test:" + app.Evaluate(testDS));
             new Program().FileTest(app);
+            Console.ReadKey();
         }
     }
 }
